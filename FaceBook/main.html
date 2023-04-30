@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FaceBook</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Main CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bg-gray">
+<h1>Hello</h1>
+ <!-- ============= App Bar ================ -->
+
+ <div class="bg-white d-flex align-items-center fixed-top shadow" style="min-height: 56px; z-index: 5;">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<!-- Search -->
+			<div class="col d-flex align-items-center">
+				<!-- Logo -->
+				<i class="fab fa-facebook text-primary" style="font-size: 3rem;"></i>
+				<!-- Searchbar -->
+				<div class="input-group ms-2">
+					<!-- Mobile Searchbar -->
+					<!-- Desktop Searchbar -->
+					<span class="input-group-prepend d-none d-lg-block" id="searchMenu" data-bs-toggle="dropdown" aria-expanded="false"
+					 type="button" data-bs-auto-close="outside">
+						<div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 230px;">
+							<i class="fas fa-search me-2 text-muted"></i>
+							<p class=" m-0 fs-7 text-muted">Seach Facebook</p>
+						</div>
+					</span>
+					<!-- Search drop-down -->
+					<ul class="dropdown-menu border-0 shadow p-3 overflow-auto" aria-labelledby="searchMenu" style="width: 20em; max-height: 600px;">
+						<!-- Search Input -->
+						<li>
+							<input type="text" class="rounded-pill border-0 bg-gray dropdown-item" placeholder="Search Friends" autofocus>
+						</li>
+						<!-- Search Resutl -->
+						<!-- Result 1 -->
+						<li class="my-4">
+							<div class="alert fade show dropdown-item p-1 m-0 d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									<img src="https://source.unsplash.com/random/1" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+									<p class="m-0">Lorem ipsum</p>
+								</div>
+								<button type="button" class="btn-close" data-bs-toggle="alert" aria-label="Close">
+								</button>
+							</div>
+						</li>
+						<!-- Result 2 -->
+						<li class="my-4">
+							<div class="alert fade show dropdown-item p-1 m-0 d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									<img src="https://source.unsplash.com/random/1" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+									<p class="m-0">Lorem ipsum</p>
+								</div>
+								<button type="button" class="btn-close" data-bs-toggle="alert" aria-label="Close">
+								</button>
+							</div>
+						</li>
+						<!-- Result 3 -->
+						<li class="my-4">
+							<div class="alert fade show dropdown-item p-1 m-0 d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									<img src="https://source.unsplash.com/random/1" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
+									<p class="m-0">Lorem ipsum</p>
+								</div>
+								<button type="button" class="btn-close" data-bs-toggle="alert" aria-label="Close">
+								</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Nav -->
+			<div class="col"></div>
+			<!-- Menu -->
+			<div class="col"></div>
+		</div>
+	</div>
+ </div>
+
+
+
+
+
+
+
+<!-- Bootstrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.gal1{
+	margin: 10px 50px;
+}
+.gal1 img {
+	transition: 1s;
+	padding: 15px;
+	width: 200px;
+	height: 160px;
+}
+.gal1 img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}

@@ -1,0 +1,296 @@
+/*Profile Head Section Start*/
+.Profile_head {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 40px;
+}
+.Profile_head .img_title{
+	display: flex;
+}
+.Profile_head .img_title img{
+	border-radius: 60px;
+	margin-right: 20px;
+}
+
+.Profile_head .img_title .channel_ndetail{
+	margin-top: 20px;
+}
+.Profile_head .img_title .channel_ndetail p{
+	margin: 8px 0;
+}
+
+.Profile_head .subscribe_channel h3{
+	margin-top: 40px;
+	margin-right: 100px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+}
+/*Profile Head Section End*/
+
+/*Profile Tab Section Start*/
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-bottom: 16px;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+  background-color: #ccc;
+  border-bottom: 3px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+/*  border: 1px solid #ccc;*/
+  border-top: none;
+}
+
+/*Profile TabLink Home Seaction Start*/
+.home_single_vid{
+/*	width: 65%;*/
+	height: 216px;
+	word-break:break-all;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	object-fit: cover;
+}
+.home_single_vid .vid_list{
+	display: flex;
+}
+.home_single_vid .vid_list img{
+	width: 360px;
+	height: 100%;
+}
+.home_single_vid .vid_list .vid_info{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.home_single_vid .vid_list .vid_info p{
+	margin: 16px 0;
+}
+.home_single_vid .vid_list .vid_info .home_ddesc{
+	margin-right: 20%;
+}
+
+/*Profile TabLink Playlist Seaction Start*/
+
+.grid-container {  
+    display: grid;  
+    grid-gap: 2px;  
+    grid-template-columns: repeat(auto-fit, 224px);
+    grid-template-rows: repeat(2, 220px);  
+}
+.grid-container .playlist_photos{
+		width: 220px;
+		height: 120px;
+		border: 2px solid black;
+		background-image: url('images/thumbnail7.png');
+		object-fit: cover;
+		position: relative;
+		align-items: center;
+		border-radius: 6px;
+}
+.grid-container .playlist_photos h5{
+		width: 50%;
+		height: 100%;
+		background-color: #00000094;
+		color: white;
+		float: right;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: underline;
+}
+.grid-container .vid_info{
+	width: 220px;
+	margin-top: 8px;
+}
+.grid-container .vid_info p{
+	margin-top: 12px;
+	font-weight: 500;
+}
+
+
+/*Profile TabLink Community Seaction Start*/
+.com_updater{
+	width: 60%;
+	border: 1px solid #80808042;
+	padding: 20px 50px;
+	margin: 20px 32px ;
+	border-radius: 8px;
+}
+.com_updater .post_community .poscum{
+	border: 0;
+	outline: 0;
+	border-bottom: 3px solid #ccc;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	background: transparent;
+}
+.com_updater .post_community button{
+	width: 120px;
+    background: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.com_updater .name_action{
+	display: flex;
+	justify-content: space-between;
+}
+.com_updater .name_action h4{
+	margin-bottom: 8px;
+}
+.com_updater .name_action span{
+	font-size: 14px;
+	color: gray;
+	margin-left: 12px;
+}
+
+.com_updater .con_action{
+	margin-top: 20px;
+	display: flex;
+}
+.com_updater .con_action p{
+	margin-right: 12px;
+}
+
+/*Profile TabLink Channel Seaction Start*/
+
+.channel_list{
+}
+.channel_list h3{
+	 font-size: 18px;
+   font-family: math;
+}
+.channel_list .subs_channel img{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 80px;
+	margin-left: 20px;
+}
+
+.channel_list .our_channel{
+/*		display: flex;*/
+	  display: grid;  
+    grid-gap: 32px;  
+    grid-template-columns: repeat(auto-fit, 160px);
+    grid-template-rows: repeat(2, 200px);  
+}
+
+.channel_list .subs_channel{
+		width: 220px;
+		height: 220px;
+    margin-top: 20px;
+/*    border: 1px solid red;*/
+    text-align: center;
+}
+.channel_list .subs_channel h4{
+		margin: 6px;
+}
+.channel_list .subs_channel p{
+		font-size: 12px;
+    margin-bottom: 16px;
+}
+.channel_list .subs_channel button{
+		padding: 4px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+/*Profile TabLink About Seaction Start*/
+
+.about_description{
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
+.about_description .about_sec{
+	width: 70%;
+/*	background-color: blue;*/
+/*	border: 1px solid black;*/
+/*	padding: 20px;*/
+}
+.about_description .about_sec .desc{
+	font-size: 14px;
+	margin-right: 80px;
+}
+.about_description .satatic_sec{
+	width: 30%;
+/*	background-color: red;*/
+/*	border: 1px solid blue;*/
+/*	padding: 40px;*/
+}
+.about_description .satatic_sec p{
+	margin: 12px;
+	padding: 12px 16px;
+	border-bottom: 1px solid #00000028;
+	font-size: 13px;
+}
+
+.about_description .del_loc{
+	margin-top: 30px;
+}
+.about_description ul li {
+	list-style-type: none;
+	margin: 8px 0;
+	font-size: 14px;
+}
+
+.about_description .details{
+	display: flex;
+    margin-top: 12px;
+    justify-content: start;
+}
+.about_description .details .dynamic{
+	margin-left: 60px;
+}
+
+/*Admin Section*/
+.about_description .edit_about{
+	float: right;
+	color: blue;
+	margin-right: 8px;
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External Css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Thapa Admin Pannel</title>
+  </head>
+  <body class="bg-light">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-md-10 col-11 mx-auto">
+              <nav aria-label="breadcrumb mb-3">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Library</li>
+                </ol>
+              </nav>
+              <div class="row">
+                <!-- Right Side Navbar -->
+                <div class="col-lg-3 col-md-4 d-md-block">
+                    <div class="card bg-common card-left">
+                      <div class="card-body">
+                        <ul class="nav d-md-block d-none">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" data-toggle="tab" href="#profile"><i class="fa-solid fa-user "></i> Profiles</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#account"><i class="fa-solid fa-user-cog "></i> Account Setting</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#security"><i class="fa-solid fa-user-shield "></i> Security</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#notification"><i class="fa-solid fa-bell "></i> Notification</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#billing"><i class="fa-solid fa-money-check-alt "></i> Billing</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                <!-- Right Side Div Start -->
+                <div class="col-lg-8 col-md-9">
+                  <div class="card">
+                    <div class="card-header border-bottom mb-3 d-md-none">
+                      <ul class="nav nav-tabs card-header-tabs nav-fill">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" data-toggle="tab" href="#profile"><i class="fa-solid fa-user "></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#account"><i class="fa-solid fa-user-cog "></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#security"><i class="fa-solid fa-user-shield "></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#notification"><i class="fa-solid fa-bell "></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#billing"><i class="fa-solid fa-money-check-alt "></i></a>
+                        </li>
+                      </ul>
+                      <!-- Right Side Section Start -->
+                      <div class="tab-content">
+                        <div class="tab-pane container active" id="profile">
+                          <div>
+                            <h1>This is Profile Tab</h1>
+                          </div>
+                        </div>
+                        <div class="tab-pane container fade" id="account">
+                          <div>
+                            <h1>This is Account Tab</h1>
+                          </div>
+                        </div>
+                        <div class="tab-pane container fade" id="security">
+                          <div>
+                            <h1>This is Security Tab</h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Play Video</title>
+	<!-- Css Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 	<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+		<nav class="flex_div">
+			<div class="nav_left flex_div">
+				<img src="images/menu.png" class="menu_icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+				<a href="index.html"><img src="images/logo.png" class="logo"></a>
+			</div>
+			<div class="nav_middle flex_div">
+				<div class="search_box flex_div">
+					<input type="text" placeholder="Search">
+					<img src="images/search.png">
+				</div>
+				<img src="images/voice-search.png" class="mic_icon">
+			</div>
+			<div class="nav_right flex_div">
+				<img src="images/upload.png">
+				<img src="images/more.png">
+				<img src="images/notification.png">
+				<img src="images/jack.png" class="user_icon">
+			</div>
+		</nav>
+
+	<!-- 	 Sidebar Section -->
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+		  <div class="offcanvas-header">
+		  	<img src="images/menu.png" class="menu_icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+				<a href="index.html"><img src="images/logo.png" class="logo"></a>
+		  </div>
+		  <div class="offcanvas-body" style="width:12%">
+		    <div class="sidebarp">
+				<div class="shortcut_linksp">
+					<a href=""><img src="images/home.png"><p>Home</p></a>
+					<a href=""><img src="images/explore.png"><p>Explore</p></a>
+					<a href=""><img src="images/subscriprion.png"><p>Subscription</p></a>
+					<a href=""><img src="images/library.png"><p>Library</p></a>
+					<a href=""><img src="images/history.png"><p>History</p></a>
+					<a href=""><img src="images/playlist.png"><p>PlayList</p></a>
+					<a href=""><img src="images/messages.png"><p>Messages</p></a>
+					<a href=""><img src="images/show-more.png"><p>Show More</p></a>
+					<hr>
+				</div>
+				<div class="Subscribed_list">
+					<h3>SUBSCRIBED</h3>
+					<a href=""><img src="images/jack.png"><p>Jack Nikola</p></a>
+					<a href=""><img src="images/simon.png"><p>Simon</p></a>
+					<a href=""><img src="images/tom.png"><p>Tom</p></a>
+					<a href=""><img src="images/megan.png"><p>Megan</p></a>
+					<a href=""><img src="images/cameron.png"><p>Cameron</p></a>
+					<a href=""><img src="images/jack.png"><p>Jack Nikola</p></a>
+					<a href=""><img src="images/simon.png"><p>Simon</p></a>
+					<a href=""><img src="images/tom.png"><p>Tom</p></a>
+					<a href=""><img src="images/megan.png"><p>Megan</p></a>
+					<a href=""><img src="images/cameron.png"><p>Cameron</p></a>
+				</div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Second Div Section -->
+		<div class="container play_container">
+			<div class="row">
+				<div class="play_video">
+					<video controls autoplay>
+						<source src="images/video.mp4" type="video/mp4">
+					</video>
+					<div class="tags">
+						<a href="">#Coding</a><a href="">#HTML</a><a href="">#CSS</a><a href="">#JavaScript</a>
+					</div>
+					<h3>Best You Tube Channel to Learn Web Development by Sushant chaudhary</h3>
+					<div class="play_video_info">
+						<p>123K View &bulll; 2 days ago</p>
+						<div>
+							<a href=""><img src="images/like.png">124</a>
+							<a href=""><img src="images/dislike.png">23</a>
+							<a href=""><img src="images/share.png">Share</a>
+							<a href=""><img src="images/save.png">Save</a>
+						</div>
+					</div>
+					<hr>
+					<div class="publisher">
+						<a href="profile.html"><img src="images/jack.png"></a>
+						<div class="">
+							<p><a href="profile.html">SDP Coding</a></p><span>500K</span>
+						</div>
+						<button type="button">Subscribe</button>
+					</div>
+
+					<!-- Publisher Below Video Description Section -->
+					<div class="vid_description_desc">
+						<p>Channel That makes learning Easy 
+							Subscribe Easy Tutorial to watch more Tutorial on new Development</p>
+					</div><hr>
+
+					<!-- Video Description Section and Comment Section -->
+					<div class="vid_description">
+						<h4><u>134 Comments</u></h4>
+						<div class="add_comment">
+							<img src="images/jack.png">
+							<input type="text" placeholder="Write Comments">
+						</div>
+						<!-- First Comment -->
+						<div class="old_comment">
+							<img src="images/jack.png">
+							<div>
+								<h3>Sushant Chaudhary <span> 2 days ago</span></h3>
+								<p>the lore of baseball heroes. 2 : something that is learned: a : traditional knowledge or belief tribal lore. b : knowledge gained through study or experience the lore of religious architecture.</p>
+								<div class="comment_action">
+									<img src="images/like.png"><span>224</span>
+									<img src="images/dislike.png">
+									<span>2</span>
+									<span>Reply</span>
+									<a href="">All Replies</a>
+								</div>
+							</div>
+						</div>
+						<!-- Second Comment -->
+						<div class="old_comment">
+							<img src="images/jack.png">
+							<div>
+								<h3>Sushant Chaudhary <span> 2 days ago</span></h3>
+								<p>the lore of baseball heroes. 2 : something that is learned: a : traditional knowledge or belief tribal lore. b : knowledge gained through study or experience the lore of religious architecture.</p>
+								<div class="comment_action">
+									<img src="images/like.png"><span>224</span>
+									<img src="images/dislike.png">
+									<span>2</span>
+									<span>Reply</span>
+									<a href="">All Replies</a>
+								</div>
+							</div>
+						</div>
+						<!-- Second Comment -->
+						<div class="old_comment">
+							<img src="images/jack.png">
+							<div>
+								<h3>Sushant Chaudhary <span> 2 days ago</span></h3>
+								<p>the lore of baseball heroes. 2 : something that is learned: a : traditional knowledge or belief tribal lore. b : knowledge gained through study or experience the lore of religious architecture.</p>
+								<div class="comment_action">
+									<img src="images/like.png"><span>224</span>
+									<img src="images/dislike.png">
+									<span>2</span>
+									<span>Reply</span>
+									<a href="">All Replies</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="right_side">
+					<!-- Fisrt Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail1.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views </p>
+						</div>
+					</div>
+					<!-- Second Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail2.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views </p>
+						</div>
+					</div>
+					<!-- Third Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail3.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views </p>
+						</div>
+					</div>
+					<!-- Fourth Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail4.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views </p>
+						</div>
+					</div>
+					<!-- Fifth Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail5.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views </p>
+						</div>
+					</div>
+					<!-- Six Video Section -->
+					<div class="side_video_list">
+						<a href="" class="small_thumbnail"><img src="images/thumbnail6.png"></a>
+						<div class="vid_info">
+							<a href="">Best Channel to learn Coding that help you to be a web</a>
+							<p>DSP Coding</a>
+							<p>115K Views<p>15K Views </p></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+</body>
+</html>
